@@ -12,9 +12,9 @@ public class Main {
         int deposit1 = 29000;
         int total1 = 0;
         for (int i = 1; i <= 12; i++) {
-            total1 = total1 + total1/100;
             total1 = total1 + deposit1;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+            total1 = total1 + total1/100;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total1 + " рублей");
         }
     }
 }
